@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://ai-finance-controller-jnc0.onrender.com/api/$1" },
+    { "source": "/summary", "destination": "https://ai-finance-controller-jnc0.onrender.com/summary" },
+    { "source": "/transactions", "destination": "https://ai-finance-controller-jnc0.onrender.com/transactions" },
+    { "source": "/health", "destination": "https://ai-finance-controller-jnc0.onrender.com/health" },
+    { "source": "/reconcile", "destination": "https://ai-finance-controller-jnc0.onrender.com/reconcile" },
+    { "source": "/reconcile-csv", "destination": "https://ai-finance-controller-jnc0.onrender.com/reconcile-csv" }
+  ]
+}
